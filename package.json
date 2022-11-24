@@ -1,0 +1,17 @@
+{
+  "name": "vite-vue3-ts-starter",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "vue": "^3.2.41"
+  },
+  "devDependencies": {
+    "@types/node": "18.8.0",
+    "@vitejs/plugin-vue": "^3.1.2",
+    "unocss": "^0.45.30",
+    "vite": "^3.1.8"
+  }
+}

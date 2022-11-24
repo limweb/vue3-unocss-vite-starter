@@ -1,0 +1,51 @@
+Arguments: 
+  d:\nodejs\node.exe C:\Users\limwe\AppData\Local\pnpm\global\5\node_modules\yarn\bin\yarn.js
+
+PATH: 
+  D:\conemu\ConEmu\Scripts;D:\conemu;D:\conemu\ConEmu;C:\Program Files (x86)\ImageMagick-7.1.0-Q16;C:\Program Files\AdoptOpenJDK\jdk-11.0.11.9-hotspot\bin;C:\Program Files\Amazon Corretto\jdk11.0.11_9\bin;C:\Program Files\Amazon Corretto\jdk1.8.0_292\bin;C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_292\bin;C:\Program Files\AdoptOpenJDK\jdk-8.0.292.10-hotspot\bin;C:\Program Files (x86)\AdoptOpenJDK\jdk-8.0.292.10-hotspot\bin;C:\Program Files\AdoptOpenJDK\jre-8.0.292.10-hotspot\bin;C:\Program Files\AdoptOpenJDK\jre-11.0.11.9-hotspot\bin;C:\Program Files (x86)\AdoptOpenJDK\jre-8.0.292.10-hotspot\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\PuTTY\;C:\Program Files\Git\cmd;d:\nvm;d:\nodejs;C:\Program Files\Microsoft Network Monitor 3\;C:\Program Files\Git LFS;D:\Program Files\Amazon\AWSCLIV2\;d:\php;C:\Program Files\gs\gs9.56.1\bin;C:\Program Files\dotnet\;C:\Program Files\Docker\Docker\resources\bin;D:\Go\bin;C:\Users\limwe\AppData\Local\pnpm;C:\Users\limwe\.pyenv\pyenv-win\bin;C:\Users\limwe\.pyenv\pyenv-win\shims;D:\python\Scripts\;D:\python\;C:\Users\limwe\.cargo\bin;C:\Users\limwe\AppData\Local\Microsoft\WindowsApps;d:\nvm;d:\nodejs;C:\Users\limwe\AppData\Local\Programs\Fiddler;D:\go\bin;D:\nodejs;c:\Program Files\Tesseract-OCR\;c:\Users\limwe\AppData\Local\Android\Sdk\platform-tools;c:\Users\limwe\AppData\Local\Android\Sdk\tools;c:\Users\limwe\AppData\Local\Android\Sdk\ndk\22.1.7171670;d:\flutter\bin;d:\hb30\bin;d:\hb30\comp\mingw\bin;C:\Users\limwe\go\bin;C:\Users\limwe\AppData\Local\Programs\Microsoft VS Code Insiders\bin;c:\Program Files\gs\gs9.54.0\bin;d:\pyenv\pyenv-win\bin;d:\pyenv\pyenv-win\shims;D:\Program Files\JetBrains\PyCharm 2021.3\bin;;C:\Program Files\JetBrains\PhpStorm 2021.3\bin;;D:\Program Files\JetBrains\GoLand 2021.3\bin;;C:\Users\limwe\.dotnet\tools;d:\BINDISC9;C:\Users\limwe\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\limwe\go\bin;d:\conemu\ConEmu\Scripts;D:\conemu;D:\conemu\ConEmu;d:\nvm;d:\nodejs;D:\Program Files\Amazon\AWSCLI\bin\;d:\vscode\bin;D:\go\bin;d:\laragon\bin;d:\laragon\bin\apache\httpd-2.4.35-win64-VC15\bin;d:\laragon\bin\composer;d:\laragon\bin\git\bin;d:\laragon\bin\git\cmd;d:\laragon\bin\git\mingw64\bin;d:\laragon\bin\git\usr\bin;d:\laragon\bin\laragon\utils;d:\laragon\bin\nginx\nginx-1.14.0;d:\laragon\bin\ngrok;d:\laragon\bin\notepad++;d:\laragon\bin\putty;d:\laragon\bin\redis\redis-x64-3.2.100;d:\laragon\bin\telnet;d:\laragon\usr\bin;d:\nvm;d:\nodejs;d:\nvm;d:\nodejs;D:\works\gopath\bin;d:\batch;c:\TDM-GCC-64\bin;d:\Program Files\Amazon\AWSCLIV2\aws.exe;
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.16.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: http://54.179.229.80:4873/vue: ESOCKETTIMEDOUT
+      at ClientRequest.<anonymous> (C:\Users\limwe\AppData\Local\pnpm\global\5\.pnpm\yarn@1.22.19\node_modules\yarn\lib\cli.js:141517:19)
+      at Object.onceWrapper (node:events:641:28)
+      at ClientRequest.emit (node:events:527:28)
+      at Socket.emitRequestTimeout (node:_http_client:771:9)
+      at Object.onceWrapper (node:events:641:28)
+      at Socket.emit (node:events:539:35)
+      at Socket._onTimeout (node:net:516:8)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7)
+
+npm manifest: 
+  {
+    "name": "vite-vue3-ts-starter",
+    "version": "1.0.0",
+    "scripts": {
+      "dev": "vite",
+      "build": "vite build"
+    },
+    "dependencies": {
+      "vue": "^3.2.41"
+    },
+    "devDependencies": {
+      "@types/node": "18.8.0",
+      "@vitejs/plugin-vue": "^3.1.2",
+      "unocss": "^0.45.30",
+      "vite": "^3.1.8"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
