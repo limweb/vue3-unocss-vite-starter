@@ -1,5 +1,9 @@
 <template>
-  <h1 class="text-red"> Vue3 Vite Unocss </h1>
+  <div>Header</div>
+  <Invoice />
+  <div>Footer</div>
 </template>
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import Invoice from "./components/Invoice.vue";
+</script>
 <style></style>
